@@ -1,0 +1,117 @@
+.topBanner {
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.loadingText {
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    font-size: 30px;
+    margin-left: 2%;
+    animation-name: loadingAnimation;
+    animation-duration: 1.5s;
+}
+
+.navigationBar {
+    position: absolute;
+    background: #000;
+    font-size: 25px;
+    width: 98%;
+    height: auto;
+    color: #fff;
+    top: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+.navigationTab {
+    display: inline-block;
+    margin: 0 1%;
+    font-family: Roboto;
+}
+
+.mainBody {
+    border: 1px solid;
+    margin-top: 2%;
+    border-radius: 5px;
+    border-color: #aaa;
+    animation-name: loadingSlide;
+    animation-duration: 1s;
+}
+
+.mainRow {
+    font-family: Roboto;
+    margin: 2% 1%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainTitle {
+    margin-bottom: 5px;
+}
+
+.refTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mainContent {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.warningBody {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.warningTitle {
+    margin-left: 1%;
+}
+
+.surveyChart {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes loadingSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    25% {
+        opacity: 0.25;
+        transform: translateX(-7.5px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

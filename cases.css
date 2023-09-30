@@ -1,0 +1,50 @@
+.topBanner {
+    height: 10%;
+}
+
+.caseBody {
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 15px;
+    animation-name: loadingSlide;
+    animation-duration: 1s;
+}
+
+.caseRow {
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+
+.leftContainer {
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.leftContainer > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rightContainer {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.caseTitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.caseContent {
+
+}
+
+.caseFooter {
+   display: inline-block;
+   width: 100%;
+}
